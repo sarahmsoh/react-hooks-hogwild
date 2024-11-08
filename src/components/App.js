@@ -32,6 +32,8 @@ function App() {
           onChangeSortBy={setSortBy}
         />
       </div>
+
+
       <div className="sixteen wide column centered">
         <HogList hogs={hogsToDisplay} />
       </div>
